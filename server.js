@@ -8,9 +8,9 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l API de l'intégration Cloud pour Systèmes Solaires');
+  res.send('Welcome to the Cloud Integration API for Solar Systems');
 });
 
 app.listen(PORT, () => {
-  console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
