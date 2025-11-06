@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l'API de l'intégration Cloud pour Systèmes Solaires');
+  res.send('Bienvenue sur l API de l'intégration Cloud pour Systèmes Solaires');
 });
 
 app.listen(PORT, () => {
