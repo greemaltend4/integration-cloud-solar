@@ -18,6 +18,6 @@
   "devDependencies": {
     "concurrently": "^6.0.0"
   },
-  "author": "Votre Nom (votre.email@example.com)",
+  "author": "Votre Nom <votre.email@example.com>",
   "license": "MIT (2023)"
 }
